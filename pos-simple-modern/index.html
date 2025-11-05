@@ -32,15 +32,18 @@
         }
 
         .logo {
-            width: 80px;
-            height: 80px;
-            background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
-            border-radius: 20px;
+            width: 100px;
+            height: 100px;
             margin: 0 auto 20px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 40px;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         h1 {
@@ -166,7 +169,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo">🏪</div>
+        <div class="logo">
+            <img src="app_icon.png" alt="POS Simple Modern Logo">
+        </div>
 
         <h1>POS Simple Modern</h1>
         <p class="subtitle">Aplikasi Kasir Modern untuk UMKM</p>
