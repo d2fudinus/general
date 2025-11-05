@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS Simple Modern - Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+        h1 {
+            color: #1f2937;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #6b7280;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .description {
+            color: #4b5563;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .features {
+            background: #f9fafb;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .features h3 {
+            color: #1f2937;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .features ul {
+            list-style: none;
+        }
+
+        .features li {
+            color: #4b5563;
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #6366F1;
+            border: 2px solid #6366F1;
+        }
+
+        .btn-secondary:hover {
+            background: #f0f0f0;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .contact {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .contact h3 {
+            color: #1f2937;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            color: #6b7280;
+            margin: 5px 0;
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .btn {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🏪</div>
+
+        <h1>POS Simple Modern</h1>
+        <p class="subtitle">Aplikasi Kasir Modern untuk UMKM</p>
+
+        <p class="description">
+            Aplikasi kasir digital terlengkap untuk UMKM Indonesia! Kelola bisnis Anda dengan mudah,
+            cepat, dan profesional - 100% OFFLINE!
+        </p>
+
+        <div class="features">
+            <h3>Fitur Utama:</h3>
+            <ul>
+                <li>Manajemen Produk & Kategori</li>
+                <li>Sistem Kasir Modern & Cepat</li>
+                <li>Laporan & Analytics Real-time</li>
+                <li>Print Struk via Bluetooth</li>
+                <li>Backup & Restore Data</li>
+                <li>100% Offline - Tanpa Internet</li>
+            </ul>
+        </div>
+
+        <a href="https://play.google.com/store/apps/details?id=com.pos.simple_modern" class="btn">
+            📱 Download di Play Store
+        </a>
+
+        <a href="privacy-policy.html" class="btn btn-secondary">
+            📄 Privacy Policy
+        </a>
+
+        <div class="contact">
+            <h3>Kontak Developer</h3>
+            <p>Butuh bantuan atau ada pertanyaan?</p>
+            <p><strong>Email:</strong> syaifurplus@gmail.com</p>
+            <p><strong>Developer:</strong> Lab Riset D2F</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 POS Simple Modern. All rights reserved.</p>
+            <p>Made with ❤️ for Indonesian MSMEs</p>
+        </div>
+    </div>
+</body>
+</html>
